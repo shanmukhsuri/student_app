@@ -124,6 +124,6 @@ func main() {
 	router.PUT("/students/:id", update_student)
 	router.POST("/students", addstudent)
 	router.DELETE("/students/:id", deletestudent)
-	router.Run("localhost:9090")
+	router.Run(":9090")
 
 }
