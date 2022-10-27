@@ -3,4 +3,4 @@ COPY . /app
 WORKDIR /app
 RUN go mod download
 EXPOSE 9090
-CMD [ "go","run","student_app.go" ]
+CMD [ "go","run","student_app_logging.go" ]
